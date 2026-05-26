@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Lopez || Full Stack Developer</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="menu">
+        <nav class="nav-menu">
+           
+                <a class="links" href="#quien-soy">¿Quien Soy?</a>
+                <a class="links" href="#proyectos">Proyectos</a>
+                <a class="links" href="#">Mini Juegos</a>
+                <a class="links" href="#">Contacto</a>
+            
+        </nav>
+    </header>
+    
+    <div id="quien-soy">
+        
+        <p>
+            Soy un ingeniero en sistemas, nacido en Venezuela <img src="https://flagcdn.com/ve.svg" alt="Venezuela" width="20">. Tengo 20 años, con 5 años de experiencia en programación. Me apasionan los retos técnicos y la creación de soluciones que combinan software, automatización y hardware. <br><br>
+
+            A lo largo de mi trayectoria he trabajado en proyectos personales y prácticos que van desde automatización de procesos con Python hasta sistemas embebidos con microcontroladores. Me gusta aprender de forma autodidacta y constantemente busco mejorar mis habilidades enfrentando problemas reales.<br><br>
+
+            Disfruto especialmente los desafíos que requieren lógica, creatividad y pensamiento analítico, ya que considero que ahí es donde realmente se crece como desarrollador.
+        </p>
+
+
+        <div id="lista-habilidades">
+            <ul id="habilidades-blandas">
+
+                <h2>Habilidades Blandas</h1>
+
+                <li>Bilingue (Español - Nativo / Ingles - C1).</li>
+                <li>Trabajo en equipo.</li>
+                <li>Rapido Aprendizaje.</li>
+                <li>Autodidacta.</li>
+                <li>Alta capacidad de adaptación.</li>
+                <li>Resolución de problemas.</li>
+                <li>Experiencia en Automatización de procesos.</li>
+            </ul>
+
+            <ul id="habilidades-tecnicas">
+
+                <h2>Habilidades Tecnicas</h2>
+
+                <li>
+                    <i class="devicon-javascript-plain colored"></i> JavaScript (JS)
+                </li>
+                <li>
+                    <i class="devicon-html5-plain-wordmark colored"></i> HTML / CSS
+                </li>
+                <li>
+                    <i class="devicon-php-plain colored"></i> PHP
+                </li>
+                <li>
+                    <i class="devicon-python-plain colored"></i> Python
+                </li>
+                <li>
+                    <i class="devicon-mysql-plain colored"></i> MySQL
+                </li>
+                <li>
+                    <i class="devicon-cplusplus-plain colored"></i> C++
+                </li>
+                <li>
+                    <i class="devicon-linux-plain colored"></i> Linux
+                </li>
+                <li>
+                    <i class="devicon-arduino-plain-wordmark colored"></i> Microcontroladores (Arduino / ESP32)
+                </li>
+                <li>
+                    <i class="fa-solid fa-network-wired"></i> Redes
+                </li>
+                <li>
+                    <i class="fa-solid fa-server"></i> Servidores
+                </li>
+                <li>
+                    <i class="fa-solid fa-people-group"></i> Scrum
+                </li>
+                <li>
+                    Automatizacion de procesos
+                </li>
+                <li>
+                    Desarrollo de Scripts y herramientas
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="proyectos">
+
+    <details>
+        <summary>Vehículo terrestre de exploración con microcontroladores</summary>
+
+        <p>
+            Desarrollo de un vehículo terrestre no tripulado orientado a exploración y pruebas de integración entre software, hardware y automatización. 
+            El proyecto fue construido utilizando microcontroladores ESP32 y programación en C++ y Python, incorporando transmisión de video en tiempo real 
+            y una interfaz gráfica capaz de calcular y visualizar la trayectoria parabólica del proyectil según el ángulo de la torreta.
+        </p>
+
+        <img src="img/tanque.jpeg" alt="" id="img-tanque">
+
+        <details>
+            <summary>Funciones principales:</summary>
+
+                <ul>
+
+                    <li>
+                        Integración de un sistema de control inalámbrico mediante un control de PS3, donde el ESP32 procesa las señales recibidas y coordina el funcionamiento de los distintos componentes del vehículo.
+                    </li>
+
+                    <ul>
+                        <li>Desplazamiento y control de orugas mediante motores DC.</li>
+                        <li>Movimiento y orientación de la torreta utilizando servomotores.</li>
+                        <li>Sistema de disparo controlado por motores dedicados.</li>
+                    </ul>
+
+                    <br>
+
+                    <li>
+                        Implementación de un módulo ESP32-CAM instalado en la torreta, encargado de transmitir video en tiempo real hacia un servidor web para supervisión remota y visualización de la mira.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        Desarrollo de un script en Python utilizando la librería OpenCV (CV2) para procesar el video recibido, añadiendo elementos gráficos como la mira y la representación dinámica de la trayectoria parabólica del proyectil.
+                    </li>
+
+                    <button><a href="www.github.com">Check Github</a></button>
+
+                </ul>
+            </details>
+    </details>
+
+<details>
+    <summary>Automatización de procesos administrativos con Python</summary>
+
+    <p>
+        Desarrollo de una solución de automatización orientada a optimizar procesos administrativos y reducir tareas manuales repetitivas. 
+        El sistema fue desarrollado en Python e integrado con múltiples aplicaciones y herramientas externas, permitiendo automatizar 
+        flujos de trabajo relacionados con correos electrónicos, procesamiento de archivos, acceso remoto y manipulación de sistemas administrativos.
+    </p>
+
+    <p>
+        El proyecto interactuaba con plataformas y aplicaciones como Outlook, AnyDesk, Microsoft Excel, WinRAR, TinyTask, 
+        A2 Softway Administrativo y A2 SmartTools, coordinando distintos procesos de manera automática desde un servidor local.
+    </p>
+
+    <details>
+        <summary>Funciones principales:</summary>
+
+            <ul>
+
+                <li>
+                    Automatización del monitoreo de correos electrónicos mediante Outlook, donde el sistema filtraba mensajes específicos, descargaba archivos adjuntos y procesaba automáticamente documentos Excel.
+                </li>
+
+                <br>
+
+                <li>
+                    Integración con AnyDesk para establecer conexiones remotas según el destinatario o la empresa asociada, permitiendo extraer información desde equipos remotos y almacenarla temporalmente en el servidor local.
+                </li>
+
+                <br>
+
+                <li>
+                    Desarrollo de automatizaciones capaces de interactuar con aplicaciones de escritorio como A2 Softway Administrativo, A2 SmartTools y Microsoft Excel, utilizando Python, TinyTask y técnicas de reconocimiento visual mediante OpenCV.
+                </li>
+
+                <br>
+
+                <li>
+                    Procesamiento, organización y validación de información administrativa para facilitar operaciones internas y disminuir tiempos de ejecución manual.
+                </li>
+
+                <br>
+
+                <li>
+                    Implementación de rutinas automáticas de respaldo y limpieza, encargadas de devolver la información procesada a los equipos remotos, eliminar archivos temporales y resguardar la data necesaria en el servidor local.
+                </li>
+
+                <button><a href="www.github.com">Check Github</a></button>
+
+            </ul>
+    </details>
+
+</details>
+
+<details>
+    <summary>Procesamiento y organización automática de datos con Python</summary>
+
+    <p>
+        Desarrollo de un script en Python diseñado para automatizar la extracción, procesamiento y organización de información recibida por correo electrónico. 
+        El sistema era capaz de conectarse automáticamente al correo, descargar archivos en formato <strong>.txt</strong>, interpretar la información contenida 
+        y convertirla en documentos <strong>.xlsx</strong> estructurados y listos para análisis o gestión administrativa.
+    </p>
+
+    <details>
+        <summary>Funciones principales:</summary>
+
+            <ul>
+
+                <li>
+                    Conexión automática al correo electrónico para detectar y descargar archivos de texto enviados por distintas fuentes.
+                </li>
+
+                <br>
+
+                <li>
+                    Lectura y procesamiento de archivos <strong>.txt</strong>, identificando y separando datos relevantes mediante reglas de filtrado y organización.
+                </li>
+
+                <br>
+
+                <li>
+                    Transformación de datos desordenados en hojas de cálculo <strong>Excel (.xlsx)</strong> con un formato estructurado y fácil de interpretar.
+                </li>
+
+                <br>
+
+                <li>
+                    Clasificación, limpieza y reorganización automática de información para reducir errores manuales y optimizar tiempos de trabajo.
+                </li>
+
+                <br>
+
+                <li>
+                    Generación de reportes listos para uso administrativo y análisis posterior.
+                </li>
+
+                <button><a href="www.github.com">Check Github</a></button>
+
+            </ul>
+    </details>
+</details>
+
+</div>
+
+
+</body>
+</html>
